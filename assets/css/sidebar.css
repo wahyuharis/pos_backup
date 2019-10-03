@@ -1,0 +1,23 @@
+.menu{
+    padding: 0px !important;
+}
+.menu > div{
+    background-color: none;
+    /*height: 40px;*/
+    /*padding-top: 6px;*/
+}
+.menu > div:hover,
+.menu > div:active,
+.sub-menu.active
+{
+    background-color: rgba(255,255,255,0.1);
+}
+.sub-menu > a{
+    margin-left: 20px;
+    text-decoration: none;
+    display: block;
+}
+.sub-menu > a:hover
+{
+    background-color: rgba(255, 255, 255, 0) !important;
+}
